@@ -29,4 +29,27 @@
   background-size: cover;
 }
 
+.content_section {
+  inline-size: var(--main-inline-size);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: var(--header-padding-block);
+  border: 2px solid currentColor;
+  background-color: var(--main-bg-color);
+}
+
+.header__logo {
+  color: inherit;
+  font-family: inherit;
+  font-size: var(--header-logo-font-size);
+  font-weight: inherit;
+  line-height: inherit;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 
