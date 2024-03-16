@@ -115,3 +115,10 @@
 .theme-menu__button:focus-visible::after {
   scale: 1;
 } 
+
+.theme-menu__button:hover,
+.theme-menu__button:focus,
+.theme-menu__button:disabled {
+  opacity: .6;
+}
+
