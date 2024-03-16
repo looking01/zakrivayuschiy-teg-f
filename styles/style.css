@@ -50,6 +50,17 @@
   line-height: inherit;
   text-transform: uppercase;
   text-decoration: none;
+  padding-block-end: 25px;
+}
+
+.header__title {
+  color: inherit;
+  font-family: inherit;
+  font-size: var(--header-title-font-size);
+  line-height: inherit;
+  font-weight: var(--main-font-weight);
+  text-transform: uppercase;
+
 }
 
 
