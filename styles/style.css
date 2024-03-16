@@ -164,3 +164,11 @@
     1px 1px 0px var(--text-shadow-label),
     -1px -1px 0px var(--text-shadow-label);
 }
+
+@supports ((text-stroke: 1px #ffffff) or (-webkit-text-stroke: 1px #ffffff)) {
+  .card__wrap__img-label {
+    -webkit-text-stroke: 1px var(--text-shadow-label);
+    text-stroke: 1px var(--text-shadow-label);
+    text-shadow: none;
+  }
+}
