@@ -107,6 +107,6 @@
   transition: scale 0.3s ease;
 }
 
-.theme-menu__button::after:focus-visible {
+.theme-menu__button:focus-visible::after {
   scale: 1;
-}
+} 
