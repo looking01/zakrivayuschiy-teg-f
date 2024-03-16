@@ -70,3 +70,13 @@
 
 }
 
+.theme-menu__button {
+  color: inherit;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: inherit;
+  line-height: inherit;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+}
