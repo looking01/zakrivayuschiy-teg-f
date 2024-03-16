@@ -15,9 +15,9 @@
 
 @keyframes arrow {
     from {
-        inset-inline-start: -20px;
+        inset-inline-start: 4px;
     }
     to {
-        inset-inline-start: -16px;
+        inset-inline-start: 0px;
     }
 }
