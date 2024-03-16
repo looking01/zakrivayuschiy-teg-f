@@ -50,7 +50,7 @@
   line-height: inherit;
   text-transform: uppercase;
   text-decoration: none;
-  padding-block-end: 25px;
+  padding-block-end: 20px;
 }
 
 .header__title {
@@ -60,7 +60,13 @@
   line-height: inherit;
   font-weight: var(--main-font-weight);
   text-transform: uppercase;
-
+  padding-block-end: 25px;
 }
 
+.theme-menu__list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+
+}
 
