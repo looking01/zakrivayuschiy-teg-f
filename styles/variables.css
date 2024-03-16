@@ -6,4 +6,12 @@
     --article-header-font-weight: 700;
     --main-bg-color: #FFFFFF;
     --accent-color: #000000;
+    --main-bg-repeating-linear-gradient: #d3d3d3;
+    --main-bg-linear-gradient: #e7e7e7 0.01%, #1a1a1a;
+    --main-inline-size: clamp(375px, 30.516vw + 16.285rem, 700px);
+    --header-padding-block: clamp(7.5rem, 1.502vw + 7.148rem, 8.5rem) 25px;
+    --header-logo-font-size: clamp(3.0625rem, 1.502vw + 2.71rem, 4.0625rem);
+    --header-title-font-size: clamp(0.875rem, 0.845vw + 0.677rem, 1.4375rem);
+    
+
 }
