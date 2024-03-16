@@ -13,5 +13,7 @@
     --header-logo-font-size: clamp(3.0625rem, 1.502vw + 2.71rem, 4.0625rem);
     --header-title-font-size: clamp(0.875rem, 0.845vw + 0.677rem, 1.4375rem);
     --article-font-settings: 'wght' 400;
+    --inset-inline-end-label: clamp(13px, 0.3794rem + 1.3146vw, 25px);
+    --inset-block-start-label: clamp(23px, 1.3935rem + 0.1878vw, 25px);
 
 }

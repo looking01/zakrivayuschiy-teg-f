@@ -136,3 +136,28 @@
   line-height: inherit;
   padding: 5px 10px;
 }
+
+.card__wrap {
+  position: relative;
+  border-block: 2px solid currentColor;
+  margin-block-end: 24px;
+}
+
+.card__wrap__img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card__wrap__img-label {
+  position: absolute;
+  inset-inline-end: var(--inset-inline-end-label);
+  inset-block-start: var(--inset-block-start-label);
+  color: inherit;
+  font-family: var(--main-font-family), Arial, sams-serif;
+  font-size: 14px;
+  font-weight: inherit;
+  line-height: inherit;
+  opacity: .5;
+  
+}
