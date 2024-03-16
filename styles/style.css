@@ -122,3 +122,17 @@
   opacity: .6;
 }
 
+.card {
+  color: inherit;
+  border: 2px solid currentColor;
+  background-color: var(--main-bg-color);
+}
+
+.card__title {
+  color: inherit;
+  font-family: var(--article-font-family), Arial, sans-serif;
+  font-size: 18px;
+  font-variation-settings: 'wght' var(--article-header-font-wght);
+  line-height: inherit;
+  padding: 5px 10px;
+}
