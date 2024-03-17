@@ -178,6 +178,38 @@
   }
 }
 
+.filter-brightness {
+  filter: brightness(1.5);
+}
+
+.filter-sepia {
+  filter: sepia(1);
+}
+
+.filter-contrast {
+  filter: contrast(469%);
+}
+
+.filter-grayscale {
+  filter: grayscale(0.5);
+}
+
+.filter-saturate {
+  filter: saturate(2.21);
+}
+
+.filter-invert {
+  filter: invert(0.6);
+}
+
+.filter-opacity {
+  filter: opacity(0.5);
+}
+
+.filter-multi {
+  filter: blur(3px) hue-rotate(71deg) saturate(384%) opacity(51%) contrast(93%);
+}
+
 .card__text {
   font-family: var(--article-font-family), Arial, sans-serif;
   font-variation-settings: var(--article-font-settings);
