@@ -76,18 +76,19 @@
       </article>
     </main>
     <footer class="footer">
-      <button class="footer__button button__content">
+      <button class="footer__button button__content" type="button" onclick="window['dialog-id'].showModal()" aria-controls="dialog-id">
         <svg class="floppy-icon" viewBox="0 0 21 21">
           <use href="./svg/floppy.svg#floppy">
         </svg>
         <span class="button__text">Сохранить на память</span>
       </button>
     </footer>
-    <dialog class="pop-up">
-      <div class="pop-up__content">
-        <svg class="pop-up__content-icon floppy-icon" viewBox="0 0 21 21">
+    <dialog id="dialog-id" class="modal">
+      <div class="modal__content">
+        <svg class="modal__content-icon floppy-icon" viewBox="0 0 21 21">
           <use href="./svg/floppy.svg#floppy">
         </svg>
+        <p class="modal__content_text">Вставьте дискету, чтобы продолжить</p>
       </div>
     </dialog>
     <script src="./scripts/like.js"></script>
