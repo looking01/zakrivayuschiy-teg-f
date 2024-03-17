@@ -196,7 +196,16 @@
 .card__icon-button {
   background-color: transparent;
   max-block-size: 38px;
-  
+  border: 2px solid transparent;
+  transition: border-color .3s ease;
+}
+
+.card__icon-button:focus {
+  outline:none;
+}
+
+.card__icon-button:focus-visible {
+  border-color: currentColor;
 }
 
 .card__like-button {
