@@ -307,7 +307,8 @@
   font-size: 14px;
   font-weight: var(--main-font-weight);
   line-height: 150%;
-  
+  text-transform: uppercase;
+
 }
 
 
