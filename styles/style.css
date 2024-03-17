@@ -67,10 +67,11 @@
   display: flex;
   flex-direction: column;
   gap: 14px;
-  position: relative;
+  padding-inline-start: 20px;
 }
 
 .theme-menu__button {
+  position: relative;
   color: inherit;
   font-family: inherit;
   font-size: 14px;
@@ -107,6 +108,6 @@
   transition: scale 0.3s ease;
 }
 
-.theme-menu__button::after:focus-visible {
+.theme-menu__button:focus-visible::after {
   scale: 1;
 }
