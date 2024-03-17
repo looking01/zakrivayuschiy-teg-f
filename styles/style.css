@@ -173,7 +173,7 @@
 @supports ((text-stroke: 1px #ffffff) or (-webkit-text-stroke: 1px #ffffff)) {
   .card__wrap__img-label {
     -webkit-text-stroke: 1px var(--text-shadow-label);
-/*    text-stroke: 1px var(--text-shadow-label);*/
+    text-stroke: 1px var(--text-shadow-label);
     text-shadow: none;
   }
 }
@@ -216,7 +216,7 @@
   color: inherit;
   font-size: 18px;
   line-height: 21px;
-  padding-inline: 25px;
+  padding-inline: 26px;
 }
 
 .card__text:not(:last-of-type) {
@@ -295,10 +295,6 @@
   position: relative;
 }
 
-.footer {
-  margin-block-start: 50px;
-}
-
 .footer__button {
   display: flex;
   justify-content: center;
@@ -307,6 +303,8 @@
   flex-wrap: wrap;
   inline-size: clamp(310px, 18.7368rem + 2.723vw, 339px);
   padding: 15px;
+  margin-block-start: 50px;
+  margin-inline: auto;
 }
 
 .floppy-icon {
