@@ -123,9 +123,9 @@
 }
 
 .card {
+  background-color: var(--main-bg-color);
   color: inherit;
   border: 2px solid currentColor;
-  background-color: var(--main-bg-color);
 }
 
 .card__title {
@@ -171,4 +171,16 @@
     text-stroke: 1px var(--text-shadow-label);
     text-shadow: none;
   }
+}
+
+.card__text {
+  font-family: var(--article-font-family), Arial, sans-serif;
+  font-variation-settings: var(--article-font-settings);
+  color: inherit;
+  font-size: 18px;
+  padding-inline: 25px;
+}
+
+.card__text-modified {
+  padding-block-end: 27px;
 }
