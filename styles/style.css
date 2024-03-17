@@ -184,3 +184,17 @@
 .card__text-modified {
   padding-block-end: 27px;
 }
+
+.card__buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  margin: 25px 25px 25px;
+}
+
+.card__icon-button {
+  background-color: transparent;
+  max-block-size: 38px;
+  
+}

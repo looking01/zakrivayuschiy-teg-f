@@ -16,4 +16,5 @@
     --inset-inline-end-label: clamp(13px, 0.3794rem + 1.3146vw, 25px);
     --inset-block-start-label: clamp(23px, 1.3935rem + 0.1878vw, 25px);
     --text-shadow-label: var(--main-bg-color);
+    --heart-sparks-color: #FF0000;
 }
