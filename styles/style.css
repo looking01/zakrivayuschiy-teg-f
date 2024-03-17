@@ -219,7 +219,7 @@
   padding-inline: 25px;
 }
 
-.card__text-modified {
+.card__text:not(:last-of-type) {
   margin-block-end: 27px;
 }
 
