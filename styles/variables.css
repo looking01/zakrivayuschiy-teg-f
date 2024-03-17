@@ -3,7 +3,7 @@
     --main-font-family: PressStart2P;
     --article-font-family: Inter;
     --main-font-weight: 400;
-    --article-header-font-weight: 700;
+    --article-header-font-wght: 700;
     --main-bg-color: #FFFFFF;
     --accent-color: #000000;
     --main-bg-repeating-linear-gradient: #d3d3d3;
@@ -12,6 +12,9 @@
     --header-padding-block: clamp(7.5rem, 1.502vw + 7.148rem, 8.5rem) 25px;
     --header-logo-font-size: clamp(3.0625rem, 1.502vw + 2.71rem, 4.0625rem);
     --header-title-font-size: clamp(0.875rem, 0.845vw + 0.677rem, 1.4375rem);
-    
-
+    --article-font-settings: 'wght' 400;
+    --inset-inline-end-label: clamp(13px, 0.3794rem + 1.3146vw, 25px);
+    --inset-block-start-label: clamp(23px, 1.3935rem + 0.1878vw, 25px);
+    --text-shadow-label: var(--main-bg-color);
+    --heart-sparks-color: #FF0000;
 }
