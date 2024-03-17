@@ -199,3 +199,16 @@
   
 }
 
+.card__like-button {
+  padding-block: 9px;
+  min-inline-size: 130px;
+}
+
+.button__text {
+  font-family: var(--main-font-family), Arial, sans-serif;
+  font-size: 14px;
+  font-weight: inherit;
+  line-height: 90%;
+  color: var(--accent-color);
+  position: relative;
+}
