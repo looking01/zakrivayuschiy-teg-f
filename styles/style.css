@@ -257,3 +257,22 @@
   position: relative;
 }
 
+.footer {
+  margin-block-start: 50px;
+}
+
+.footer__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  inline-size: clamp(310px, 18.7368rem + 2.723vw, 339px);
+  padding: 15px;
+}
+
+.floppy-icon {
+  color: var(--accent-color);
+  inline-size: calc((100% + 30px) * (-0.2414) + 101.862px);
+}
+
