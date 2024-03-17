@@ -49,12 +49,12 @@
     transition: fill .3s .03s linear;
 }
 
-.like.icon:hover .core {
+.like-icon:hover .core {
     fill: var(--accent-color);
     transition: fill .3s linear;
 }
 
-.like.icon:active .core {
+.like-icon:active .core {
     fill: var(--heart-sparks-color);
     transition: fill .3s linear;
 }
