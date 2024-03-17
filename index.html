@@ -89,6 +89,11 @@
           <use href="./svg/floppy.svg#floppy">
         </svg>
         <p class="modal__content_text">Вставьте дискету, чтобы продолжить</p>
+        <form method="dialog" class="modal__content__form">
+          <button class="dialog__form-close button__content" onclick="window['dialog-id'].close()">
+            <span class="button__text">ОК</span>
+          </button>
+        </form>
       </div>
     </dialog>
     <script src="./scripts/like.js"></script>
