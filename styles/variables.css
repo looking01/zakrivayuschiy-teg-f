@@ -6,6 +6,7 @@
     --article-header-font-wght: 700;
     --main-bg-color: #FFFFFF;
     --accent-color: #000000;
+    --hover-bg-button: var(--main-bg-color);
     --main-bg-repeating-linear-gradient: #d3d3d3;
     --main-bg-linear-gradient: #e7e7e7 0.01%, #1a1a1a;
     --main-inline-size: clamp(375px, 30.516vw + 16.285rem, 700px);

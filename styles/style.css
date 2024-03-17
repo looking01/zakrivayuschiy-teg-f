@@ -276,7 +276,7 @@
   left: 0;
   inline-size: 100%;
   block-size: 100%;
-  background-color: var(--main-bg-color);
+  background-color: var(--hover-bg-button);
   translate: -100%;
   transition: .5s translate ease-in-out;
   mix-blend-mode: difference;
