@@ -129,6 +129,10 @@
   border: 2px solid currentColor;
 }
 
+.card:not(:last-of-type) {
+  margin-block-end: 50px;
+}
+
 .card__title {
   color: inherit;
   font-family: var(--article-font-family), Arial, sans-serif;
@@ -141,7 +145,7 @@
 .card__wrap {
   position: relative;
   border-block: 2px solid currentColor;
-  margin-block-end: 24px;
+  margin-block-end: 25px;
 }
 
 .card__wrap__img {
@@ -179,11 +183,12 @@
   font-variation-settings: var(--article-font-settings);
   color: inherit;
   font-size: 18px;
+  line-height: 21px;
   padding-inline: 25px;
 }
 
 .card__text-modified {
-  padding-block-end: 27px;
+  margin-block-end: 27px;
 }
 
 .card__buttons {
