@@ -213,6 +213,14 @@
   overflow: hidden;
 }
 
+.hover__button-content:focus {
+  outline: none;
+}
+
+.hover__button-content:focus-visible {
+  box-shadow: 2px 2px 0px var(--accent-color);
+}
+
 .hover__button-content::after {
   content: '';
   display: block;
