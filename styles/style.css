@@ -43,6 +43,7 @@
   padding-block: var(--header-padding-block);
   border: 2px solid currentColor;
   background-color: var(--main-bg-color);
+  margin-block-end: 100px;
 }
 
 .header__logo {
@@ -189,7 +190,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 12px;
+  gap: 4px;
   margin: 25px 25px 25px;
 }
 
