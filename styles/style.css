@@ -276,3 +276,38 @@
   inline-size: calc((100% + 30px) * (-0.2414) + 101.862px);
 }
 
+.modal {
+  border: 2px solid var(--accent-color);
+  padding-block: 30px;
+  background-color: var(--main-bg-color);
+  inline-size: clamp(341px, 21.0484rem + 1.1268vw, 353px);;
+}
+
+.modal::backdrop {
+  background-color: #000000;
+  opacity: 0.75;
+}
+
+.modal__content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  gap: 30px 20px;
+  inline-size: clamp(257px, 15.2702rem + 3.3803vw, 293px);
+}
+
+.modal__content-icon {
+  inline-size: 39px;
+  aspect-ratio: 1 / 1;
+}
+
+.modal__content-text {
+  font-family: var(--main-font-family), Arial, sans-serif;
+  font-size: 14px;
+  font-weight: var(--main-font-weight);
+  line-height: 150%;
+  
+}
+
+
